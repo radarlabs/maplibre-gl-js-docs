@@ -54,3 +54,8 @@ var {
 .overview-header-browser .h30-mm.h18 {
     height: 18px !important;
 }
+
+/* disable breadcrumb */
+.dr-ui--breadcrumb {
+    display: none !important;
+}

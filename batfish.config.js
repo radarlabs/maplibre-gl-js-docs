@@ -20,7 +20,7 @@ const siteBasePath = '/maplibre-gl-js-docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,
-        siteOrigin: 'https://maplibre.github.io',
+        siteOrigin: 'https://maplibre.github.io', // TODO: move to radar domain
         pagesDirectory: `${__dirname}/docs/pages`,
         outputDirectory: path.join(__dirname, '_site'),
         browserslist: mapboxAssembly.browsersList,

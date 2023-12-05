@@ -23,6 +23,9 @@ import redirectApiRef from '../util/api-ref-redirect';
 import { version } from '../../node_modules/maplibre-gl/package.json';
 import slug from 'slugg';
 
+// disable specific sidebar items
+const HIDE_NAV = ['examples', 'plugins'];
+
 class PageShell extends React.Component {
     componentDidMount() {
         // redirect hashes on /api/
@@ -71,6 +74,11 @@ class PageShell extends React.Component {
         const { location, children, frontMatter } = this.props;
         const meta = buildMeta(frontMatter, location.pathname, navigation);
 
+        // remove nav items
+        const navTabs = navigation.navTabs.filter(
+            (nav) => !HIDE_NAV.includes(nav.id)
+        );
+
         return (
             <ReactPageShell
                 site={constants.SITE}
@@ -114,7 +122,7 @@ class PageShell extends React.Component {
                         headings: this.renderCustomHeadings()
                     }}
                     constants={constants}
-                    navigation={navigation}
+                    navigation={{ ...navigation, navTabs }}
                     filters={filters}
                     AppropriateImage={AppropriateImage}
                     // use custom sidebar for API and Style Spec since this data needs to be generated
