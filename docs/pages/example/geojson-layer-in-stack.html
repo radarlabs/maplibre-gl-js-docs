@@ -2,8 +2,7 @@
 <script>
     var map = new maplibregl.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://api.radar.io/maps/styles/radar-default-v1?publishableKey=org_test_pk_7e1e22718af02cb9ed4a01233556999c2c02c947',
         center: [-88.13734351262877, 35.137451890638886],
         zoom: 4
     });
@@ -20,8 +19,7 @@
         }
         map.addSource('urban-areas', {
             'type': 'geojson',
-            'data':
-                'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
+            'data': 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson'
         });
         map.addLayer(
             {
