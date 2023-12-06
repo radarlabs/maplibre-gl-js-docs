@@ -28,10 +28,10 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/handlers</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/markers</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/map</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/markers</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/api/properties</loc>
@@ -58,10 +58,10 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-a-marker</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-animated</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-animated</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/add-image-generated</loc>
@@ -124,10 +124,10 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/contour-lines</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-marker-icons</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-style-layer</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-style-layer</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/custom-marker-icons</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/data-driven-lines</loc>
@@ -202,19 +202,19 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/hover-styles</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/jump-to</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/interactive-false</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/interactive-false</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/jump-to</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/language-switch</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-gradient</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-across-180th-meridian</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-across-180th-meridian</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/line-gradient</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/live-geojson</loc>
@@ -256,10 +256,10 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/mouse-position</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/navigation</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/multiple-geometries</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/multiple-geometries</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/navigation</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/offset-vanishing-point-with-padding</loc>
@@ -301,10 +301,10 @@
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/simple-map</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/timeline-animation</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/third-party</loc>
     </url>
     <url>
-        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/third-party</loc>
+        <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/timeline-animation</loc>
     </url>
     <url>
         <loc>https://maplibre.github.io/maplibre-gl-js-docs/example/toggle-interaction-handlers</loc>
